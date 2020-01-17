@@ -1,0 +1,26 @@
+{
+  "name": "accordionjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredforth/accordion.git"
+  },
+  "author": "Jared Forth <jaredforthdev@gmail.com> (https://jaredforth.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaredforth/accordion/issues"
+  },
+  "homepage": "https://github.com/jaredforth/accordion#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
+  }
+}
