@@ -3,7 +3,15 @@
 
 # Simple Accordion 
 
-TODO: 
+## Getting Started
+
+`npm install accordion-simple`
+
+
+
+## Usage 
+
+## In Progress / Known Issues
+ 
 - Add aria attributes
 - Initialize from JS
-

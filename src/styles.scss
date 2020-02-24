@@ -20,17 +20,15 @@
         right: 1rem;
       }
     }
-  }
-  .accordion-content {
-    display: none;
-    &.open {
-      display: block;
-    }
     p {
+      display: none;
+      &.open {
+        display: block;
+      }
       font-size: 1rem;
     }
-  }
-  a, .accordion-content {
-    padding: 1rem;
+    a, p {
+      padding: 1rem;
+    }
   }
 }

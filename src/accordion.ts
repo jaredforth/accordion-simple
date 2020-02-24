@@ -3,7 +3,7 @@ export function accordion() {
     for (let i = 0; i < accordion_containers.length; i++) {
         if (accordion_containers[i]) {
             const accordion_triggers = accordion_containers[i].getElementsByTagName('a');
-            const accordion_content = accordion_containers[i].getElementsByClassName('accordion-content');
+            const accordion_content = accordion_containers[i].getElementsByTagName('p');
             for (let j = 0; j < accordion_triggers.length; j++) {
                 accordion_triggers[j].onclick = function () {
                     if (accordion_content[j].classList.contains('open')) {
