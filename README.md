@@ -5,13 +5,43 @@
 
 ## Getting Started
 
+**Install package**
+
 `npm install accordion-simple`
 
+**Import Stylesheet**
 
+In the `<head>`, add `<link rel="stylesheet" href="dist/styles.css"`
 
-## Usage 
+**Import JavaScript**
+
+In the `<footer>`, add `<script src="dist/accordion.js"></script>`
+
+**Markup**
+
+This package requires an `<ul>` with the `.accordion` class, with child `<li>` that contain an `<a>` element that toggles the visibility of the initially hidden `<p>` element on click. An example is below: 
+
+```html
+<ul class="accordion">
+    <li>
+        <a href="#">Accordion One</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium eros non venenatis iaculis.
+            Fusce finibus metus vel nulla fringilla convallis. Cras scelerisque pulvinar nisi. Vivamus id nibh magna
+        </p>
+    </li>
+    <li>
+        <a href="#">Accordion Two</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium eros non venenatis iaculis.
+            Fusce finibus metus vel nulla fringilla convallis. Cras scelerisque pulvinar nisi. Vivamus id nibh magna</p>
+    </li>
+    <li>
+        <a href="#">Accordion Two</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium eros non venenatis iaculis. Fusce
+            finibus metus vel nulla fringilla convallis. Cras scelerisque pulvinar nisi. Vivamus id nibh magna</p>
+    </li>
+</ul>
+```
 
 ## In Progress / Known Issues
  
-- Add aria attributes
-- Initialize from JS
+- Add aria attributes dynamically
