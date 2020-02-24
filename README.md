@@ -3,7 +3,7 @@
 
 # Simple Accordion 
 
-## Getting Started
+## Usage
 
 **Install package**
 
