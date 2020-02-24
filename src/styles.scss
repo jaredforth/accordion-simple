@@ -1,0 +1,37 @@
+.accordion {
+  list-style: none;
+  width: 90%;
+  margin: 2rem auto 3rem;
+  li {
+    border: .05rem solid lightgrey;
+    text-align: left;
+    text-transform: uppercase;
+    color: grey;
+    margin: 1rem 0;
+    a {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      &:hover {
+        background-color: lightgrey;
+      }
+      &:after {
+        content: '+';
+        position: absolute;
+        right: 1rem;
+      }
+    }
+  }
+  .accordion-content {
+    display: none;
+    &.open {
+      display: block;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  a, .accordion-content {
+    padding: 1rem;
+  }
+}
