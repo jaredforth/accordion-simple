@@ -45,3 +45,4 @@ This package requires an `<ul>` with the `.accordion` class, with child `<li>` t
 ## In Progress / Known Issues
  
 - Add aria attributes dynamically
+- Add real tests
