@@ -12,11 +12,15 @@ module.exports = {
             {
                 test: /\.s[ac]ss$/i,
                 use: [
-                    'ts-loader',
                     MiniCssExtractPlugin.loader,
                     'css-loader',
                     'sass-loader',
                 ],
+                exclude: /node_modules/,
+            },
+            {
+                test: /\.ts$/i,
+                use: 'ts-loader',
                 exclude: /node_modules/,
             },
         ],

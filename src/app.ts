@@ -1,8 +1,6 @@
 // Import the stylesheet
 import './styles.scss';
 
-// Import accordion function
-import { accordion } from "./accordion";
+import { Accordion } from "./accordion";
 
-// Call `accordion()` to activate on page
-accordion();
+let a = new Accordion();
