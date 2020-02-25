@@ -9,13 +9,15 @@
 
 `npm install accordion-simple`
 
-**Import Stylesheet**
-
-In the `<head>`, add `<link rel="stylesheet" href="dist/styles.css"`
-
 **Import JavaScript**
 
 In the `<footer>`, add `<script src="dist/accordion.js"></script>`
+
+**Optional Import Stylesheet**
+
+If you want to use the boilerplate styles included, add `<link rel="stylesheet" href="dist/styles.css"` in the `<head>`. 
+
+This is optional, and if you want to write your own styles, the accordion functionality will work with just the JavaScript.
 
 **Markup**
 
