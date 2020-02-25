@@ -1,5 +1,5 @@
 {
-  "name": "accordionjs",
+  "name": "accordion-simple",
   "version": "0.1.0",
   "description": "",
   "main": "dist/app.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaredforth/accordion.git"
+    "url": "git+https://github.com/jaredforth/accordion-simple.git"
   },
   "author": "Jared Forth <jaredforthdev@gmail.com> (https://jaredforth.com)",
   "license": "MIT",
