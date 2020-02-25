@@ -1,5 +1,4 @@
 .accordion {
-  list-style: none;
   width: 90%;
   margin: 2rem auto 3rem;
   li {
@@ -11,6 +10,7 @@
       display: block;
       position: relative;
       cursor: pointer;
+      text-decoration: none;
       &:hover {
         background-color: lightgrey;
       }
@@ -21,10 +21,6 @@
       }
     }
     p {
-      display: none;
-      &.open {
-        display: block;
-      }
       font-size: 1rem;
     }
     a, p {
