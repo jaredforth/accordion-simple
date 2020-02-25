@@ -1,7 +1,7 @@
 {
   "name": "accordion-simple",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple, lightweight, drop-in accordion element.",
   "main": "dist/app.js",
   "scripts": {
     "start": "webpack --mode development",
@@ -18,6 +18,17 @@
   "bugs": {
     "url": "https://github.com/jaredforth/accordion/issues"
   },
+  "keywords": [
+    "accordion",
+    "simple",
+    "widget",
+    "component",
+    "collapse",
+    "collapsable",
+    "typescript",
+    "sass",
+    "scss"
+  ],
   "homepage": "https://github.com/jaredforth/accordion#readme",
   "devDependencies": {
     "@types/jest": "^25.1.3",
