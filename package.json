@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack --mode development",
     "build": "webpack --mode production",
-    "prepublish": "webpack --mode production",
+    "prepare": "webpack --mode production",
     "test": "jest"
   },
   "repository": {
