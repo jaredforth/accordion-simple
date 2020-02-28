@@ -1,33 +1,26 @@
 export class Accordion {
     containers: HTMLCollection;
+    listItems: HTMLCollectionOf<HTMLLIElement> | undefined;
     triggers: HTMLCollectionOf<HTMLAnchorElement> | undefined;
-    content: HTMLCollectionOf<HTMLParagraphElement> | undefined;
     constructor() {
         this.containers = document.getElementsByClassName('accordion');
         let containers_array = Array.from(this.containers);
-        containers_array.map((c, i) => {
+        containers_array.map(c => {
+            this.listItems = c.getElementsByTagName('li');
             this.triggers = c.getElementsByTagName('a');
-            this.content = c.getElementsByTagName('p');
             this.toggle_open();
         });
-        // for (let i = 0; i < this.containers.length; i++) {
-        //     if (this.containers[i]) {
-        //         this.triggers = this.containers[i].getElementsByTagName('a');
-        //         this.content = this.containers[i].getElementsByTagName('p');
-        //         this.toggle_open();
-        //     }
-        // }
         this.set_styles();
     }
     toggle_open() {
-        if (this.triggers && this.content) {
+        if (this.triggers && this.listItems) {
             for (let i = 0; i < this.triggers.length; i++) {
-                let content = this.content[i];
+                let li = this.listItems[i];
                 this.triggers[i].onclick = function () {
-                    if (content.classList.contains('open')) {
-                        content.classList.remove('open');
+                    if (li.classList.contains('open')) {
+                        li.classList.remove('open');
                     } else {
-                        content.classList.add('open');
+                        li.classList.add('open');
                     }
                 }
             }
@@ -41,7 +34,7 @@ export class Accordion {
             if (sheet) {
                 sheet.insertRule('.accordion { list-style: none }');
                 sheet.insertRule('.accordion li p { display: none }');
-                sheet.insertRule('.accordion li p.open { display: block }');
+                sheet.insertRule('.accordion li.open p { display: block }');
             }
         }
     }

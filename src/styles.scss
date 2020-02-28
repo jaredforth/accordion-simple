@@ -6,6 +6,11 @@
     text-align: left;
     color: grey;
     margin: 1rem 0;
+    &.open {
+      a {
+        background-color: lightgrey;
+      }
+    }
     a {
       display: block;
       position: relative;
