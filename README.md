@@ -23,7 +23,7 @@ This is optional, and if you want to write your own styles, the accordion functi
 
 **Markup**
 
-This package requires an `<ul>` with the `.accordion` class, with child `<li>` that contain an `<a>` element that toggles the visibility of the initially hidden `<p>` element on click. An example is below: 
+This package requires an `<ul>` with the `.accordion` class, with child `<li>` that contain an `<a>` element that toggles the visibility of the initially hidden `<p>` element on click. An example can be found in the [example](./example) directory, or below: 
 
 ```html
 <ul class="accordion">
