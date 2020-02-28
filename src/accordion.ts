@@ -4,13 +4,19 @@ export class Accordion {
     content: HTMLCollectionOf<HTMLParagraphElement> | undefined;
     constructor() {
         this.containers = document.getElementsByClassName('accordion');
-        for (let i = 0; i < this.containers.length; i++) {
-            if (this.containers[i]) {
-                this.triggers = this.containers[i].getElementsByTagName('a');
-                this.content = this.containers[i].getElementsByTagName('p');
-                this.toggle_open();
-            }
-        }
+        let containers_array = Array.from(this.containers);
+        containers_array.map((c, i) => {
+            this.triggers = c.getElementsByTagName('a');
+            this.content = c.getElementsByTagName('p');
+            this.toggle_open();
+        });
+        // for (let i = 0; i < this.containers.length; i++) {
+        //     if (this.containers[i]) {
+        //         this.triggers = this.containers[i].getElementsByTagName('a');
+        //         this.content = this.containers[i].getElementsByTagName('p');
+        //         this.toggle_open();
+        //     }
+        // }
         this.set_styles();
     }
     toggle_open() {

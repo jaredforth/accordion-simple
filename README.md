@@ -39,7 +39,7 @@ This package requires an `<ul>` with the `.accordion` class, with child `<li>` t
             Fusce finibus metus vel nulla fringilla convallis. Cras scelerisque pulvinar nisi. Vivamus id nibh magna</p>
     </li>
     <li>
-        <a href="#">Accordion Two</a>
+        <a href="#">Accordion Three</a>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium eros non venenatis iaculis. Fusce
             finibus metus vel nulla fringilla convallis. Cras scelerisque pulvinar nisi. Vivamus id nibh magna</p>
     </li>
