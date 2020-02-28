@@ -50,3 +50,7 @@ This package requires an `<ul>` with the `.accordion` class, with child `<li>` t
  
 - Add aria attributes dynamically
 - Add real tests
+
+## Improvement 
+
+This package is a work in progress, and any suggestions for improvement are welcome. Please [file a new issue](https://github.com/jaredforth/accordion-simple/issues/new) if you have any problems using this package or find ways in which it could be improved. 
