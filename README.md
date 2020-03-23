@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/v/accordion-simple)](https://www.npmjs.com/package/accordion-simple)
 [![Build Status](https://travis-ci.com/jaredforth/accordion-simple.svg?token=mH2pScYxqRkBEzpBQAu6&branch=master)](https://travis-ci.com/jaredforth/accordion-simple)
-[![codecov](https://codecov.io/gh/jaredforth/accordion/branch/master/graph/badge.svg?token=SAKX0TVPH9)](https://codecov.io/gh/jaredforth/accordion)
+[![codecov](https://codecov.io/gh/jaredforth/accordion-simple/branch/master/graph/badge.svg?token=SAKX0TVPH9)](https://codecov.io/gh/jaredforth/accordion-simple)
 [![npm](https://img.shields.io/npm/dm/accordion-simple)](https://www.npmjs.com/package/accordion-simple)
 
 # Simple Accordion 
