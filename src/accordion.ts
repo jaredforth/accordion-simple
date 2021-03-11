@@ -16,13 +16,13 @@ export class Accordion {
         if (this.triggers && this.listItems) {
             for (let i = 0; i < this.triggers.length; i++) {
                 let li = this.listItems[i];
-                this.triggers[i].onclick = function () {
+                this.triggers[i].addEventListener('click', function () {
                     if (li.classList.contains('open')) {
                         li.classList.remove('open');
                     } else {
                         li.classList.add('open');
                     }
-                }
+                })
             }
         }
     }
@@ -32,9 +32,9 @@ export class Accordion {
             document.head.appendChild(style);
             let sheet: CSSStyleSheet | null = style.sheet as CSSStyleSheet;
             if (sheet) {
-                sheet.insertRule('.accordion { list-style: none }');
-                sheet.insertRule('.accordion li p { display: none }');
-                sheet.insertRule('.accordion li.open p { display: block }');
+                sheet.insertRule('ul.accordion { list-style: none }');
+                sheet.insertRule('ul.accordion li div { display: none }');
+                sheet.insertRule('ul.accordion li.open div { display: block }');
             }
         }
     }
