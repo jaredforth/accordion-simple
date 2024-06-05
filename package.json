@@ -36,7 +36,7 @@
     "css-loader": "^6.7.3",
     "jest": "^26.6.3",
     "mini-css-extract-plugin": "^2.7.2",
-    "node-sass": "^7.0.0",
+    "node-sass": "^9.0.0",
     "sass-loader": "^13.2.0",
     "ts-jest": "^26.5.3",
     "ts-loader": "^9.4.2",
